@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>online results</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+
+<style>
+body{
+  margin:0;
+}
+
+  
+
+        
+   .topnav{
+    overflow:hidden;
+   background-color:whitesmoke;
+  
+    }
+
+
+   .topnav a{
+font-size: 1.5em;
+color:blue; 
+text-decoration:none;
+padding:0.5em;
+justify-content: center;
+align-content: center;
+display:inline-flex;
+text-align:center;
+}
+
+.topnav a:hover{
+color:rgb(11, 105, 50);
+background-color:#f2f2f2;
+}
+
+.topnav .icon{
+display:none;
+}
+
+@media screen and (max-width:600px){
+.topnav a:not(:first-child) {display:none;}
+.topnav a.icon{
+  float:right;
+display:block;
+}
+}
+
+@media screen and (max-width:600px){
+.topnav.responsive  {position:relative;}
+.topnav.responsive .icon{ position:absolute;
+right:0;
+top:0;}
+
+.topnav.responsive a{
+float:none;
+display:block;
+text-align:left;
+}
+}
+.m{
+  font-family: 'Dancing Script', cursive;
+  
+  color:red;
+ 
+  border-radius: 50%;
+  
+  box-shadow:1px 1px 1px 1px wheat;
+  opacity: 0.9;
+  
+}
+.one{
+  width:30vh;
+  height: auto;
+  background-color: whitesmoke;
+  border-radius:1em;
+  padding-top: 1px;
+  padding-right: 10px;
+  
+}
+ul{
+  line-height:1.5em;
+  
+  }
+.two{
+  position: relative;
+ 
+}
+.three{
+  position: absolute;
+  top:40%;
+  left:40%;
+  transform: translate(-40%,-40%);
+  color:orange;
+}
+#four{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+  background:#b3cccc;
+  padding: 1em;
+  
+}
+#five{
+      
+      font-size:2em;justify-content: center;text-align: center;font-family: 'Dancing Script', cursive;color:blue;
+   
+      border-radius: 50%;
+      padding: 0.1em;;
+      box-shadow:1px 1px 1px 1px blueviolet;
+      opacity: 0.7;
+      
+      
+}
+#four .fa{
+  color: black;
+  background:whitesmoke;
+  padding: 0.5em;
+  border-radius:10%;
+  font-size: 1em;
+  margin: 0.5em;
+  font-weight: bolder;
+  box-shadow:6px 6px 2px rgba(0,0,0,0.15);        -6px -6px 12px rgba(255,255,255,.1); 
+  transition-duration:1s;
+  
+  
+}
+#four .fa:hover{
+  transform: scale(1.1);
+  font-size: 2em;
+  border-radius: 50%;
+}
+.six{
+  padding:10px;
+  
+  
+}
+section {
+  display: inline-flex;
+  padding-right: 1px;
+  
+  
+}
+
+ul a{
+  text-decoration:none;
+  color:blue;
+}
+#four a{
+  text-decoration: none;
+  color:black;
+}
+/*global*/
+.container{
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+}
+.dark{
+  padding: 15px;
+  background:
+  color:#ffffff;
+  padding-top:-10px;
+ color:white;
+  
+}
+.btn1{
+ height:38px;
+ background:#e8491d;
+ border:0;
+ padding-left: 20px;
+ padding-right:20px;
+ color:#ffffff;
+
+}
+
+.sub{
+  
+  color:#e8491d;
+  background:whitesmoke;
+  
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ 
+  
+ 
+  
+}
+/*main-col*/
+article#main-col{
+  padding-top:-10px;
+  width:100%;
+  background-image:linear-gradient(to right, #000428,#004e92);
+  
+   
+  }
+
+.result{
+  margin:40px;
+  
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.result div{
+    display:inline-flex;
+    margin:10px;
+    border-radius: 20px;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: ;
+    border:2px solid white;
+    bac
+    
+  }
+ .result div:hover{
+   width:300px;
+   height:300px;
+ }
+ .result div img:hover{
+   width:270px;
+   height:270px;
+ }
+.box1{
+  height: 240px;
+  width:240px;
+  
+  border:1px solid wheat;
+} 
+
+ .box2{
+  height: 240px;
+  width:240px;
+
+} 
+
+.box3{
+height: 240px;
+width:240px;
+}
+
+.box4{
+height: 240px;
+width:240px;
+
+}
+
+.box5{
+height: 240px;
+width:240px;
+
+}
+
+.box6{
+height: 240px;
+width:240px;
+}
+
+.box7{
+height: 240px;
+width:240px;
+
+}
+
+.box8{
+height: 240px;
+width:240px;
+background-color: #6600c
+}
+
+
+
+.info div{
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+}
+ .info1{
+  width:300px;
+  height:300px;
+  background-color:wheat;
+  overflow: hidden;
+  
+}
+ .info3{
+     width:300px;
+  height:300px;
+  background-color:wheat;
+ }
+ .clip{position: relative;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ }
+ .clip h1{position: absolute;
+   transform: translate(5%,5%);
+   
+  }
+  .clip h1:nth-child(1)
+  {
+    color:transparent;
+    -webkit-text-stroke: 2px white;
+    
+  }
+  .clip h1:nth-child(2){
+    color:deeppink;
+    animation:ani 4s ease infinite;
+    
+    
+  }
+  @keyframes ani{
+    0%,100%{ color:deeppink;
+             clip-path:polygon(
+                  0 45%,
+                  16% 44%,
+                  33% 50%,
+                  54% 60%,
+                  70% 61%,
+                  84% 59%,
+                  100% 52%,
+                  100% 100%,
+                  0 100%);
+   }
+   10%{color:red;}
+   20%{color:blue;}
+   30%{color:yellow;}
+   40%{color:violet;}
+   50%{
+     clip-path: polygon(
+     0 60%,
+     15% 65%,
+     34% 66%,
+     51% 62%,
+     67% 50%,
+     84% 45%,
+     100% 46%,
+     100% 100%,
+     0 100%);
+    color:orange;}
+    60%{color:limegreen;}
+    70%{color:cyan;}
+    80%{color:cornsilk;}
+    90%{color:wheat;}
+    
+      
+   }
+   #but{
+border-radius:4px;
+background-color:deeppink;
+display:none;
+position:fixed;
+font-size: 2em;
+
+bottom:10px;
+right:12px;
+}
+
+ .reg{
+  background-color:blueviolet;
+  color:yellow  ;
+  padding:10px;
+  font-size:20px;
+ box-shadow: 5px 5px 5px Black;
+ border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+  text-align: center;
+  color:wheat;
+  text-shadow: 1px 1px 1px green;
+  background-color:blue;
+}
+.dropdown
+{
+    position: absolute;
+    display: inline-block;
+    
+}
+.dropdown_list
+{
+    display: none;
+   
+    background-color:wheat;
+    padding: 10px;
+    line-height: 30px;
+    
+}
+button{ border:none;}
+.dropdown_list a{
+    text-decoration: none;
+    color:rgb(8, 48, 8) ;
+    color:deeppink;
+}
+.dropdown:hover .dropdown_list{
+    display: block;
+}
+section{
+    display: inline-flex;
+  text-align: justify;
+}
+  
+  #rain{
+    animation: new 2s ease infinite;
+  }
+  @keyframes new{
+    0%,100%{color:black;}
+    50%{color:orange;}
+  }
+  .blink a{
+    animation: blink 1s ease infinite;
+  }
+  @keyframes blink{
+     0%,100%{color:black;}
+    50%{color:orange;}
+  }
+  
+    
+h4 span{
+  position:relative;
+  border-radius: 10px;
+  padding: 3px;
+ animation: jump 0.5s ease infinite  alternate;
+ color:white;
+  font-family: 'EB Garamond', serif;
+  }
+h4{
+  height:30px;
+ 
+}
+
+
+h4 span:nth-child(1)
+{
+  animation-delay: 0.1s;
+  
+}
+h4 span:nth-child(2){
+  animation-delay: 0.2s;
+  
+}
+h4 span:nth-child(3){
+  animation-delay: 0.3s;
+  
+}
+h4 span:nth-child(4){
+  animation-delay: 0.4s;
+  
+}
+h4 span:nth-child(5){
+  animation-delay: 0.5s;
+  
+}
+h4 span:nth-child(6){
+  animation-delay: 0.6s;
+  
+}
+h4 span:nth-child(7){
+  animation-delay: 0.7s;
+  
+}
+@keyframes jump
+{
+  100%{bottom:-30%;}
+}
+
+  .tabContainer,.tabContainer1
+{
+    width: 100%;
+    height: fit-content;
+}
+.tabContainer .buttonContainer,.tabContainer1 .buttonContainer
+{
+    height: 15%;
+}
+.tabContainer .buttonContainer button,.tabContainer1 .buttonContainer button
+{
+    height: 100%;
+    width: 25%;
+    outline: none;
+    border:none;
+    float: left;
+    padding: 10px;
+    font-size:15px;
+    background: rgb(48, 77, 5);
+    color: white;
+   
+}
+.tabContainer .tabPanel1, .tabContainer .tabPanel2,
+.tabContainer .tabPanel3, .tabContainer .tabPanel4,
+.tabContainer1 .tabPanel5, .tabContainer1 .tabPanel6,
+.tabContainer1 .tabPanel7, .tabContainer1 .tabPanel8
+{
+    height: fit-content;
+    
+   padding-left: 20px;
+    font-size: 15px;
+    background: rgb(72, 116, 8);
+    color: white;
+    padding-top: 30px;
+    box-sizing: border-box;
+    display: none;
+}
+ 
+ .slide{
+   position: absolute;
+   animation:down 3s ease ,fadeoutt 3s ease both,up 3s ease both;
+   text-shadow: 0 2px 5px rgba(0,0,0,0.7);
+  
+ }
+ @keyframes down{
+   from{transform: translateY(-300%);}
+   to{transform: translateY(8%);
+   display :none;}
+   0%{color: whitesmoke;}
+   100%{
+     color:orange;
+   }
+   
+ }
+ @keyframes fadeout{
+   from{opacity:0;}
+   to{opacity:1}
+ }
+ .ani{
+   font-weight: bolder;
+  
+   animation:hide 1s alternate infinite ease-in-out;
+   font-size: 20px;
+ }
+ @keyframes hide{
+   from{text-shadow:0 0 20px transparent;}
+   to{text-shadow: 0 20px 70px rgba(0,0,0,0.8);}
+   100%{
+     font-size: 20px;
+     color:white;
+   }
+   0%{color:#8cb3d9;
+     
+   }
+ }
+  
+
+</style>
+</head>
+
+<body style="background-image:linear-gradient(to right, #000428,#004e92); ">
+  
+<div class="clip">
+ <h1> <span class="m">RW</span>
+ &nbsp;Results World</h1>
+ <h1> <span class="m">RW</span>
+ &nbsp;Results World</h1>
+</div>
+<br><br><br><br>
+  
+        <div class="topnav" id="sidebar">
+        <a href=""> Home&nbsp;</a>
+        <a href="#main-col">About&nbsp;</a>
+        <a href="#jump1">Results&nbsp;</a>
+        <a href="#five">Contact&nbsp;</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+    function myFunction() {
+      var x =document.getElementById("sidebar");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  
+    </script>
+   
+   
+   
+    <div class="two">
+      <img src="Result.jpg" width="100%" height="auto">
+      <div class="three">
+      
+        <pre style="font-size:3vh;color:orange"><b><span class="slide">Welcome to Results World</span></b>
+        
+     <span style="color:greenyellow;font-size: 3vh;">"Your career
+    is in Your<span class="ani">&nbsp;Hands</span>"</pre>
+      </div>
+    </div>
+    
+    <br>
+    
+    <section>
+   <div class="one">
+     
+    <h3 style="font-family:arial;font-size: 30px;">&nbsp;&nbsp;&nbsp;Index</h3> 
+    
+     <ul>
+       
+       <li style="color:blue"><a href="#inter">Inter academic exam results</a></li>
+       <li style="color:blueviolet"><a href="#poly">Polytechnic ac exam results</a></li>
+       <li style="color:green"><a href="#deg">Degree acadamic exam results</a></li>
+       <li style="color:#336699"><a href="btech">Btech acadamic exam results</a></li>
+       <li style="color:#ff3300"><a href="">Mtech final exam results</a></li>
+       <li style="color:#cc6600"><a href="#">Mtech acadamic results</a></li>
+       <li style="color:#ff6699"><a href="#">MBA academic results</a></li>
+     </ul>
+     <hr color="blueviolet">
+   </div>
+   
+   <div class="six">
+   <h4 style="text-align:center;font-size: 20px;">
+   <span style="background-color:deeppink">W</span>
+   <span style="background-color:green">E</span>
+   <span style="background-color:blue">L</span>
+   <span style="background-color:orange">C</span>
+   <span style="background-color:blue">O</span>
+   <span style="background-color:green">M</span>
+   <span style="background-color:deeppink">E</span>  </h4>
+   
+   <p style="text-indent: 30px;color:white;"><big>W</big>e are so delightfull to introduce ourselves to you. Education is important for all of us so we are happy to be a part of in your career. first thing never give up to clear you are backlogs if you get fail then keep trying for success we hope you can do that. Once again thank you for visiting us and our website.</p>
+   <p style="text-indent: 30px;color:white;"><big>H</big>i everyone  this is the 
+   website called the "results
+   world" gives you the best 
+   websites from Google to know 
+   your results from your academics.
+   results word avoids the unnecessary
+   information and other ads from Google. </p>
+   <p style="text-indent: 30px;color:white;"><big>T</big>he main motto of our website
+   is if you are facing problem finding your results in searching some other links this is the best site and easy to know your results in our website.This website consist all all best website links to final page of their website to get results easily to get results easily.</p>
+   </div>
+ </section>
+ <br><br>
+ <hr color="wheat">
+  <section>
+      <div class="container">
+          <article id="main-col"><br>
+          <h4 style="text-align: center;font-size: 20px;heigh;"class="page-title">
+    <span style="background-color:deeppink">A</span>
+    <span style="background-color:green">B</span>
+    <span style="background-color:blue">O</span>
+    <span style="background-color:orange">U</span>
+    <span style="background-color:blue">T</span>
+  <span style="background-color:green">U</span>
+  <span style="background-color:deeppink">S</span></h4>
+   <p class="dark">&nbsp;&nbsp;&nbsp; We are so delightfull to introduce ourselves to you. Education is important for all of us so we are happy to be a part of in your career. first thing never give up to clear you are backlogs if you get fail then keep trying for success we hope you can do that. Once again thank you for visiting us and our website.</p>
+   <p class="dark">  &nbsp;&nbsp;&nbsp;  The main motto of our website
+   is if you are facing problem finding your results in searching some other links this is the best site and easy to know your results in our website.This website consist all all best website links to final page of their website to get results easily to get results easily.The main motto of our website
+   is if you are facing problem finding your results in searching some other links this is the best site and easy to know your results in our website.This website consist all all best website links to final page of their website to get results easily to get results easily.</p>
+   <br>
+          </article>
+      </div>
+  </section>
+ <br>
+   
+ 
+ <hr color="wheat">
+ <h4 style="text-align: center;font-size: 20px;"> <span style="background-color:deeppink">I</span>
+   <span style="background-color:green">M</span>
+   <span style="background-color:blue">A</span>
+   <span style="background-color:orange">G</span>
+   <span style="background-color:blue">E</span>
+   <span style="background-color:green">S</span>
+   <span style="background-color:deeppink">S</span>  </h4>
+ <div class="result">
+    <div class="box1"><img src="Res1.jpg"width="200px" height="200px"></div>
+    <div class="box2"><img src="Res2.png"width="200px" height="200px"></div>
+    <div class="box3"><img src="Res3.jpeg"width="200px" height="200px"> </div>
+    <div class="box4"><img src="Res4.jpeg"width="200px" height="200px"></div> 
+    <div class="box5"><img src="Res5.jpeg"width="200px" height="200px"></div>
+    <div class="box6">   <img src="Res6.jpeg"width="200px" height="200px"> </div>
+    <div class="box7"><img src="Res7.jpeg"width="200px" height="200px"></div>
+    <div class="box8"><img src="Res8.jpeg"width="200px" height="200px"></div>
+   
+ </div>
+ 
+ <hr color="wheat">
+ <h4 id="jump1"style="text-align: center;"><span style="background-color:deeppink">R</span>
+    <span style="background-color:green">E</span>
+    <span style="background-color:blue">S</span>
+    <span style="background-color:orange">U</span>
+    <span style="background-color:blue">L</span>
+  <span style="background-color:green">T</span>
+  <span style="background-color:deeppink">S</span></h4><br>
+ 
+  <div class="tabContainer">
+            <div class="buttonContainer">
+                <button onclick="show1()" id="btn1" >Latest</button>
+                <button onclick="show2()" id="btn2" >Intermediate</button>
+                <button onclick="show3()" id="btn3">Diploma</button>
+                <button onclick="show4()" id="btn4" >Degree</button>
+            </div>
+            <div class="tabPanel1" id="tp1" ><br>
+                    <ul type="circle">
+                    <li>pre.phd course work
+                      Pharmacy2021 exam results.</li><a href="https://www.osmania.ac.in/res07/20210651.jsp">click here</a>
+                    <li>MSISC I,II,III (BACKLOG) & III SEM (REGULAR) MARCH-2021 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210650.jsp">click here</a>
+                    <li>Pre.Ph.D(Course Work) (Geology) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210645.jsp">click here</a>
+                    <li>(6-YDC)(RV) DEC-2020 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210641.jsp">click here</a>
+                    <li>PHARM.D(3-YDC)(RV)-DEC-2020 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210640.jsp"> click here</a>
+                    <li>BBA (CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210613.jsp">click here</a>
+                    <li>BA(CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210612.jsp">click here</a>
+                    <li>B.Sc(CBCS) (RV) 2nd &4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210611.jsp">click here</a>
+                    <li>B.Com (CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210610.jsp"> click here</a>
+                    <li>Pre.Ph.D(Course Work) (Urdu Oriental) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210637.jsp">click here</a>
+                    <li>Pre.Ph.D(Course Work) (Zoology) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210636.jsp">click here</a></ul>
+            
+            
+            </div>
+            <div class="tabPanel2" id="tp2" ><br>   <ul>
+              <li>inter 1st year 2020 results</li><a href="http://exams.manabadi.co.in/results/AP/Inter/1st-year/reg/AP-Intermediate-1st-year-regular-exam-result-April-2020.htm"> click here</a>
+              <li>inter 2nd year 2020 results</li><a href="http://exams.manabadi.co.in/results/AP/Inter/2nd-year/reg/AP-Intermediate-2nd-year-regular-exam-result-April-2020.htm">click here</a>
+            </ul> </div>
+            <div class="tabPanel3" id="tp3" >  <br> <ul>
+              <li>1st year</li><a href="http://www.results.manabadi.co.in/2020/andhra-pradesh-diploma-c16-1st-yr-3rd-4th-5th-and-6th-sem-mar-apr-2020-results-10122020.htm">click here</a>
+              <li>2nd year</li><a href="http://www.results.manabadi.co.in/2020/andhra-pradesh-diploma-c16-1st-yr-3rd-4th-5th-and-6th-sem-mar-apr-2020-results-10122020.htm ">click here</a>
+              <li>3rd year</li><a href="http://www.results.manabadi.co.in/2020/andhra-pradesh-diploma-c16-1st-yr-3rd-4th-5th-and-6th-sem-mar-apr-2020-results-10122020.htm  "> click here</a>
+            </ul> </div>
+            <div class="tabPanel4" id="tp4" ><br><ul type="circle">
+      
+      <li>Results by Acharya University</li><a href="http://www.manabadi.co.in/university/anu-ug-results-anu-degree-exam-results-acharya-nagarjuna-university-degree-results.asp ">click here</a>
+      <li>Results by SV University</li><a href="https://www.indianbooklet.com/svu-degree-3rd-sem-results/  ">click here</a>
+       </ul>  </div>
+        </div>
+        <br>
+        <div class="tabContainer1">
+            <br> <br>
+            <div class="buttonContainer">
+                <button onclick="show5()" id="btn5" >Btech</button>
+                <button onclick="show6()" id="btn6" >Mtech</button>
+                <button onclick="show7()" id="btn7" >PG</button>
+                <button onclick="show8()" id="btn8" >MBA</button>
+            </div>
+            <div class="tabPanel5" id="tp5" >  
+                 <br><ul type="circle">
+         <li>First year 1st sem</li>
+         <a href="https://jntuaresults.ac.in/view-results-56736021.html">
+           click here
+           </a>
+           <li>First year 2nd sem</li>
+           <a href="https://jntuaresults.ac.in/view-results-56736166.html">
+           click here
+           </a>
+            <li>second year 1st sem</li>
+           <a href="https://jntuaresults.ac.in/view-results-56736241.html">click here
+          </a>
+          <li>second year 2nd sem</li>
+          <a href="https://jntuaresults.ac.in/view-results-56736405.html">
+            click here
+          </a>
+          <li>Third year 1nd sem</li>
+       <a href="https://jntuaresults.ac.in/view-results-56736468.html">click here</a>
+       <li>Third year 2nd sem</li>
+       <a href="">
+         click here
+       </a>
+       <li>fourth year 1st sem</li>
+       <a href="https://jntuaresults.ac.in/view-results-56736455.html">
+       click here</a>
+       <li>fourth year 2nd sem</li>
+       <a href="https://jntuaresults.ac.in/view-results-56736334.html">
+       click here</a>
+       </ul></div>
+        <div class="tabPanel6" id="tp6">
+           <br> 
+         <ul type="circle">
+           <li>M.Tech II semester (R17) Regular & Supplementary Examinations, November/December 2020</li>
+           <a href="https://jntuaresults.ac.in/view-results-56736425.html">click here</a>
+        <li>M.Tech I Semester (R09) (Last Chance) Supplementary Examinations, Nov/Dec 2020</li>
+        <a href="https://jntuaresults.ac.in/view-results-56736441.html">click here</a>
+        <li>M.Tech II Semester (R09) (Last Chance) Supplementary Examinations, Nov/Dec 2020</li>
+        <a href="https://jntuaresults.ac.in/view-results-56736442.html">click here</a>
+        <li>M.Tech II semester (R09) Supplementary Examinations, November/December 2020</li>
+         <a href="https://jntuaresults.ac.in/view-results-56736426.html">click here</a>
+         <li>M.Tech III Semester (R17) Supplementary Examinations, November 2020</li>
+         <a href="https://jntuaresults.ac.in/view-results-56736433.html"></a>
+         
+         <li> M.Tech I semester (R17) Regular & Supplementary Examinations, January/February 2020</li>
+         
+         <a href="https://jntuaresults.ac.in/view-results-56736327.html">click here</a>
+         </ul>   
+            </div>
+            <div class="tabPanel7" id="tp7" ><br><ul type="circle">
+      <li>pre.phd course work
+Pharmacy2021 exam results.</li><a href="https://www.osmania.ac.in/res07/20210651.jsp">click here</a>
+        <li>MSISC I,II,III (BACKLOG) & III SEM (REGULAR) MARCH-2021 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210650.jsp">click here</a>
+        <li>Pre.Ph.D(Course Work) (Geology) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210645.jsp">click here</a>
+         <li>(6-YDC)(RV) DEC-2020 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210641.jsp">click here</a>
+        <li>PHARM.D(3-YDC)(RV)-DEC-2020 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210640.jsp"> click here</a>
+        <li>BBA (CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210613.jsp">click here</a>
+        <li>BA(CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210612.jsp">click here</a>
+         <li>B.Sc(CBCS) (RV) 2nd &4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210611.jsp">click here</a>
+        <li>B.Com (CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210610.jsp"> click here</a>
+        <li>Pre.Ph.D(Course Work) (Urdu Oriental) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210637.jsp">click here</a>
+        <li>Pre.Ph.D(Course Work) (Zoology) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210636.jsp">click here</a></ul></div>
+            <div class="tabPanel8" id="tp8" ><br>
+              <ul type="circle">
+      
+        <li>MSISC I,II,III (BACKLOG) & III SEM (REGULAR) MARCH-2021 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210650.jsp">click here</a>
+        <li>Pre.Ph.D(Course Work) (Geology) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210645.jsp">click here</a>
+         <li>(6-YDC)(RV) DEC-2020 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210641.jsp">click here</a>
+        <li>PHARM.D(3-YDC)(RV)-DEC-2020 RESULTS</li><a href="https://www.osmania.ac.in/res07/20210640.jsp"> click here</a>
+        <li>BBA (CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210613.jsp">click here</a>
+        <li>BA(CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210612.jsp">click here</a>
+         <li>B.Sc(CBCS) (RV) 2nd &4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210611.jsp">click here</a>
+        <li>B.Com (CBCS) (RV) 2nd & 4th Sem Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210610.jsp"> click here</a>
+        <li>Pre.Ph.D(Course Work) (Urdu Oriental) Jan-2021 Results</li><a href="https://www.osmania.ac.in/res07/20210637.jsp">click here</a>
+        </ul></div>
+        </div>
+
+    <script>
+        function show1()
+        {
+            document.getElementById('tp1').style.display = "block"
+            document.getElementById('btn1').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn2').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn3').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn4').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp2').style.display = "none"
+            document.getElementById('tp3').style.display = "none"
+            document.getElementById('tp4').style.display = "none"
+        }
+        function show2()
+        {
+            document.getElementById('tp2').style.display = "block"
+            document.getElementById('btn2').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn1').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn3').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn4').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp1').style.display = "none"
+            document.getElementById('tp3').style.display = "none"
+            document.getElementById('tp4').style.display = "none"
+        }
+        function show3()
+        {
+            document.getElementById('tp3').style.display = "block"
+            document.getElementById('btn3').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn1').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn2').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn4').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp1').style.display = "none"
+            document.getElementById('tp2').style.display = "none"
+            document.getElementById('tp4').style.display = "none"
+        }
+        function show4()
+        {
+            document.getElementById('tp4').style.display = "block"
+            document.getElementById('btn4').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn1').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn2').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn3').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp1').style.display = "none"
+            document.getElementById('tp2').style.display = "none"
+            document.getElementById('tp3').style.display = "none"
+        }
+        function show5()
+        {
+            document.getElementById('tp5').style.display = "block"
+            document.getElementById('btn5').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn6').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn7').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn8').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp6').style.display = "none"
+            document.getElementById('tp7').style.display = "none"
+            document.getElementById('tp8').style.display = "none"
+        }
+        function show6()
+        {
+            document.getElementById('tp6').style.display = "block"
+            document.getElementById('btn6').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn5').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn7').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn8').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp5').style.display = "none"
+            document.getElementById('tp7').style.display = "none"
+            document.getElementById('tp8').style.display = "none"
+        }
+        function show7()
+        {
+            document.getElementById('tp7').style.display = "block"
+            document.getElementById('btn7').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn5').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn6').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn8').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp5').style.display = "none"
+            document.getElementById('tp6').style.display = "none"
+            document.getElementById('tp8').style.display = "none"
+        }
+        function show8()
+        {
+            document.getElementById('tp8').style.display = "block"
+            document.getElementById('btn8').style.backgroundColor = "rgb(72, 116, 8)"
+            document.getElementById('btn5').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn6').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('btn7').style.backgroundColor = "rgb(48, 77, 5)"
+            document.getElementById('tp5').style.display = "none"
+            document.getElementById('tp6').style.display = "none"
+            document.getElementById('tp7').style.display = "none"
+        }
+    </script>
+
+ 
+ 
+ 
+     
+  
+ <br><br><br>
+ <br>
+ <br><br><br>
+ <br>
+    <div class="sub" id="subscribe"><br>
+    <div>
+     <h3>subscribe to our website</h3><br>
+     <div>
+     <input type="email" placeholder="enter your mail address">
+     <br><br>
+     <div>
+     <button class="btn1">subscribe</button><br><br>
+     </div>
+     </div>
+     </div>
+    </div>
+ 
+ 
+ <br>
+ <div id="four">
+  <span id="five">RW </span>
+  <br>
+  <br><br>follows on<br><br>
+  <a href="https://www.facebook.com/monark.munni"> 
+  <i class="fa fa-facebook"></i>
+  </a>
+   <a href="https://instagram.com/think_cham_p?utm_medium=copy_link  "> <i class="fa fa-instagram"></i></a>
+    <a href="https://think-champ.com/ "><i class="fa fa-google"></i>  </a><br><br>
+    
+ <pre style="font-size: 1.2em"><a href="#sidebar">home</a>    <a href="#main-col">About us</a>    <a href="#result">results</a>
+ 
+ <a href="#"> other links</a>   <a href="#subscribe">subscribe</a>  <a href="">store</a>
+ 
+  <a href="#">Frequently Asked Questions</a>
+  
+ <a href="#four"> contact us</a>   <a href="">other certificates</a> 
+ 
+ 
+ 
+ copyright ©️ 2021 visual studiocode
+  </div>
+  
+  
+  
+  
+  <button onclick="lokesh()"  id="but"><span style="color:white">&#8657;</span></button>
+  <script>
+var mybutton=document.getElementById("but");
+window.onscroll=function(){
+
+scrollFunction();
+}
+function scrollFunction(){
+
+  if(document.body.scrollTop>10||document.documentElement.scrollTop>10)
+{
+
+   mybutton.style.display="block";
+
+ }
+else{
+   mybutton.style.display="none";
+ }
+
+}
+function lokesh(){
+  document.body.scrollTop=30;
+  document.documentElement.scrollTop=30;
+
+}
+</script>
+  
+  
+  
+  
+  
+
+</body>
+
+</html>
